@@ -1,19 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <title>People Analytics Dashboard</title>
+
+  <!-- ESTILOS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background: #1f4e79;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 40px;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #1f4e79;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      color: #666;
+      padding: 30px 0;
+      font-size: 0.9rem;
+    }
+  </style>
+
 </head>
 <body>
-  <h1>People Analytics Dashboard</h1>
 
-  <iframe 
-    width="100%" 
-    height="800"
-    src="https://app.powerbi.com/reportEmbed?reportId=43bbc04d-e1a2-45de-999a-97c1815a757d&autoAuth=true&ctid=b9b9fed5-914c-4f13-9dd7-80958b6b6b9a"
-    frameborder="0"
-    allowfullscreen="true">
-  </iframe>
+  <!-- HEADER -->
+  <header>
+    <h1>People Analytics Dashboard</h1>
+    <p>Portafolio de Visualización de Datos</p>
+  </header>
+
+  <div class="container">
+
+    <!-- DESCRIPCIÓN DEL PROYECTO -->
+    <div class="card">
+      <h2>Descripción del Proyecto</h2>
+      <p>
+        Este dashboard fue elaborado como parte de un portafolio profesional orientado al área de 
+        <strong>Data Visualization</strong> y <strong>People Analytics</strong>.  
+        Su propósito es presentar indicadores clave relacionados con análisis de personal mediante visualizaciones claras y accesibles.
+      </p>
+      <p>
+        Las imágenes que se muestran a continuación corresponden a las diferentes páginas del dashboard que diseñé.
+      </p>
+    </div>
+
+    <!-- IMÁGENES DEL DASHBOARD -->
+    <div class="card">
+      <h2>Vista del Dashboard</h2>
+
+      <h3>Página 1</h3>
+      <img src="images/Page 1 - Overview.png" alt="Dashboard Página 1">
+
+      <h3>Página 2</h3>
+      <img src="images/Page 2 - Attrition Analysis.png" alt="Dashboard Página 2">
+
+      <h3>Página 3</h3>
+      <img src="images/Page 3 - Employee Profile.png" alt="Dashboard Página 3">
+    </div>
+
+    <!-- ENLACE AL REPO -->
+    <div class="card">
+      <h2>Repositorio del Proyecto</h2>
+      <p>
+        Puedes ver el código completo y los archivos del proyecto en el repositorio de GitHub:
+      </p>
+      <p>
+        <a href="https://github.com/christoforo13/people_analytics_dashboard.github.io" target="_blank">
+          👉 Ver repositorio en GitHub
+        </a>
+      </p>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    Portafolio creado con fines demostrativos.  
+  </footer>
 
 </body>
 </html>
