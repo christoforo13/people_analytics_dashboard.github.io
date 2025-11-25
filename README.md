@@ -56,16 +56,6 @@ https://github.com/christoforo13/christopher_cumi.github.io
 
 ---
 
-Estructura del Repositorio
-/
-├── index.html
-├── README.md
-└── images/
-      ├── people_analytics_dashboard/
-      └── sales_dashboard/
-
----
-
 Autor  
 Christopher Cumi Llanes  
 Portafolio orientado a análisis de datos, modelado, visualización y soluciones de negocio con Power BI.
